@@ -126,11 +126,20 @@ body::-webkit-scrollbar-thumb {
 /* Cambiamos el fondo cuando esté en active o hover */
 
 .container::-webkit-scrollbar-track:hover,
-
 .container::-webkit-scrollbar-track:active {
 
   background: #d4d4d4;
 
+}
+
+.hero-intro{
+	margin-top: -32px;
+	color: #eee;
+	background-color: #266EC0
+}
+.hero-intro p{
+	text-align: justify;
+	font-size: 26px
 }
 </style>
 
@@ -147,7 +156,7 @@ body::-webkit-scrollbar-thumb {
 		    <a class="nav-link active" href="#">Inicio</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link" href="#">Habilidades</a>
+		    <a class="nav-link" href="#habilidad">Habilidades</a>
 		  </li>
 		  <li class="nav-item">
 		    <a class="nav-link" href="#sobre-mi">Sobre mi</a>
@@ -158,7 +167,22 @@ body::-webkit-scrollbar-thumb {
 		</ul>
 	</div>
 
-	<section class="container-fluid ">
+	<div class="jumbotron jumbotron-fluid hero-intro" id="hero-intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<span class="fas fa-info-circle fa-7x  m-5 "></span>
+				</div>
+				<div class="col-md-7">
+				    <p class="lead">
+				    	Hola soy Daniel!, me dedico al desarrollo web profesionalmente con años de experiencia, me considero una persona autodidacta siempre aprendiendo de lo ultimo en tectologia. Intento cada día cultivarme como programador audaz y intrépido.
+				    </p>
+			    </div>
+		    </div>
+		</div>
+	</div>
+
+	<section class="container-fluid" id="habilidad">
 		<div class="container">
 			<h1 class="display-4 margen">Habilidades</h1>
 			<div class="card-deck">
