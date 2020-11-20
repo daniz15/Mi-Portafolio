@@ -1,9 +1,14 @@
+*{
+	scroll-behavior: smooth;
+}
 body{
+	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
 	padding: 0 auto;
 	font-weight: normal;
 	color: #262626;
 	background-color: #F6F5F5;
+	
 }
 
 .jumbotron .container{
@@ -21,6 +26,7 @@ body{
 .contacto li a{
 	color: #eee;
 }
+
 .head .nav a{
 	color: #5a5a5a
 }
@@ -79,6 +85,7 @@ h1{
 	background-color: #266EC0
 }
 .hero-intro p{
+	margin-top: 25px;
 	text-align: justify;
 	font-size: 26px
 }
