@@ -1,0 +1,85 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	font-weight: normal;
+	color: #262626;
+	background-color: #F6F5F5;
+}
+
+.jumbotron .container{
+	text-align: center;
+} 
+
+.contacto{
+	background-color: #4984E6;
+	color: #eee
+}
+
+.contacto li{
+	margin: 15px;
+}
+.contacto li a{
+	color: #eee;
+}
+.head .nav a{
+	color: #5a5a5a
+}
+
+.head .nav a:hover{
+	color: #232323;
+	background-color: #D0D0D0 
+}
+
+section{
+	width: auto;
+	min-height: 376px;
+}
+
+.margen{
+	margin-bottom: 25px;
+}
+
+h1{
+	text-align: center;
+
+}
+
+.card-body li{
+	list-style: none;
+}
+.card{
+	min-height: 270px
+}
+
+.footer{
+	margin-top: -32px;
+	font-size: 1.2rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #212529;
+	color: #868e96
+}
+.footer a{
+	color: #868e96
+}
+
+.footer a:hover{		
+	background-color: #272C31
+}
+
+.center{
+	text-align:  center
+}
+
+.hero-intro{
+	margin-top: -32px;
+	color: #eee;
+	background-color: #266EC0
+}
+.hero-intro p{
+	text-align: justify;
+	font-size: 26px
+}
+</style>
