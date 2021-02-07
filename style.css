@@ -7,7 +7,7 @@ body{
 	padding: 0 auto;
 	font-weight: normal;
 	color: #262626;
-	background-color: #F6F5F5;
+	background-color: #E6E6E6;
 	
 }
 
@@ -42,7 +42,7 @@ section{
 }
 
 .margen{
-	margin-bottom: 25px;
+	margin-bottom: 3rem;
 }
 
 h1{
