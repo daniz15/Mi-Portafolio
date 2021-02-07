@@ -5,10 +5,68 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
 	padding: 0 auto;
-	font-weight: normal;
 	color: #262626;
 	background-color: #E6E6E6;
 	
+}	
+.nav  li{
+	padding-left: 2rem;
+
+}
+.nav-item a{
+	font-size: 1.2rem !important;
+}
+
+.active{
+	background-color: #266EC0 !important;
+}
+
+.perfil{
+	display: block;
+	width: 250px;
+	height: 250px;
+	background-image: url('img/daniel2.jpg');
+	background-size: cover;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+ .perfil{
+ 	margin-left: 3rem;
+ }
+ .featurette h2{
+ 	text-align: center
+ }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ .perfil{
+ 	margin-left: 8rem;
+ }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+ .perfil{
+ 	margin-top: 4.5rem
+ }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ .perfil{
+ 	margin-left: 4rem;
+ 	margin-top: 1rem
+ }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/ 
+@media (min-width: 1200px) { 
+ .perfil{
+ 	margin-left: 5rem;
+ 	margin-top: 1rem
+ }
 }
 
 .jumbotron .container{
