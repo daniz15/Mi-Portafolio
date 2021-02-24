@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="description" content="Hola soy Daniel!, me dedico al desarrollo web profesionalmente con años de experiencia, me considero una persona autodidacta y proactiva siempre aprendiendo de lo ultimo en tecnologia. Intento cada día cultivarme como programador audaz y intrépido.">
-	  	<meta name="keywords" content="DAniel zapata, Potafolio, HTML, CSS, JavaScript, desarroolador web, Desarrollo de paginas WEB, Diseño adaptado a tu necesidad, Programacion de Sistemas, Gestión y Mantenimientos de Sitios Web">
+	  	<meta name="keywords" content="Daniel zapata, Potafolio, HTML, CSS, JavaScript, desarroolador web, Desarrollo de paginas WEB, Diseño adaptado a tu necesidad, Programacion de Sistemas, Gestión y Mantenimientos de Sitios Web">
 	  	<meta name="author" content="Daniel zapata">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Daniel Zapata - Desarrollador Web</title>
@@ -25,7 +25,7 @@
 			    <p class="lead">Desarrollador Web.</p>
 			</div>
 
-			<ul class="nav nav-pills justify-content-center">
+			<ul class="nav nav-pills justify-content-center nav-menu">
 			  <li class="nav-item">
 			    <a class="nav-link active" href="#">Inicio</a>
 			  </li>
@@ -168,7 +168,7 @@
 			</div>
 			<br><br>
 
-			<ul class="nav justify-content-center">
+			<ul class="nav justify-content-center nav-social">
 			  <li class="nav-item">
 			    <a href="https://t.me/zapatadaniel" target="_blank"><i class="fab fa-telegram fa-3x"></i></a>
 			  </li>
@@ -185,27 +185,17 @@
 		</div>
 
 		<footer class="footer">
-			<ul class="nav justify-content-center">
-			  <li class="nav-item">
-			    <a class="nav-link" href="#inicio">Inicio</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Habilidades</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#sobre-mi">Servicios</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#contacto">Contacto</a>
-			  </li>
-			</ul>
-			<br>
-			<div class="center ">
-				<p>
+			<div class="center">
+				<p class="mt-3">
 					<i class="far fa-copyright"></i> Daniel Zapata 2020, todos los derechos reservados
 				</p>
 			</div>		
-		</footer>	
+		</footer>
+
+
+		<div class="flecha text-center">
+			<a href="#inicio" class="text-dark"><i class="fas fa-arrow-up fa-2x mt-1"></i></a>
+		</div>	
 	</body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -225,5 +215,19 @@
 		});
 
 	});
+$( window ).scroll(function(){
+	scroll();
+});
+
+function scroll(){
+		// elementos de la lista 
+	var flecha = $(".flecha");
+		if (window.scrollY > 5) {
+			flecha.show();
+		} else {
+			flecha.hide();
+		}
+
+}
 </script>
 </html>
