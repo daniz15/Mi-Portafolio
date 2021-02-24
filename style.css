@@ -9,14 +9,14 @@ body{
 	background-color: #E6E6E6;
 	
 }	
-.nav  li{
-	padding-left: 2rem;
 
-}
-.nav-item a{
+.nav-menu .nav-item a{
 	font-size: 1.2rem !important;
 }
-
+.nav-menu li{
+	margin-left: 5px 5px;
+	margin-right: 5px
+}
 .active{
 	background-color: #266EC0 !important;
 }
@@ -37,6 +37,10 @@ body{
  .featurette h2{
  	text-align: center
  }
+  .nav-menu .nav-item a{
+	font-size: .9rem !important;
+}
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -125,13 +129,6 @@ h1{
 	background-color: #212529;
 	color: #868e96
 }
-.footer a{
-	color: #868e96
-}
-
-.footer a:hover{		
-	background-color: #272C31
-}
 
 .center{
 	text-align:  center
@@ -146,5 +143,16 @@ h1{
 	margin-top: 25px;
 	text-align: justify;
 	font-size: 26px
+}
+
+.flecha{
+	right: 10px;
+	bottom: 20px;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	border-radius: 15px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 3px 3px  #888888 !important;
 }
 </style>
